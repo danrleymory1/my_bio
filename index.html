@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, height=device-height, viewport-fit=cover' initial-scale=1.0">
   <title>Meu Currículo</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
@@ -16,7 +16,7 @@
           <p class="text-gray-400">Analista de Dados</p>
         </div>
       </div>
-      <nav class="text-white">
+      <nav class="text-whit e">
         <a href="#sobre" class="mx-4 hover:text-gray-200">Sobre Mim</a>
         <a href="#habilidades" class="mx-4 hover:text-gray-200">Habilidades</a>
         <a href="#links" class="mx-4 hover:text-gray-200">Links</a>
@@ -25,34 +25,41 @@
   </header>
 
   <main class="container mx-auto py-8">
-    <section id="sobre" class="mb-8">
-      <h2 class="text-2xl font-bold">Sobre Mim</h2>
+    <section id="sobre" class="mb-8 mx-4">
+      <h2 class="text-2xl font-bold">Sobre Mim</h2><br>
       <p class="text-gray-600 text-justify">Minha jornada profissional teve início quando conquistei a liderança em uma competição de matemática na escola, o que despertou minha paixão pelo desafio intelectual. Ingressando no Instituto Federal do Pará, escolhi o curso de Técnico em Informática, explorando a crescente importância da computação na sociedade.
         Ao longo dos anos, adquiri valiosas habilidades de atendimento ao cliente, comunicação e empatia durante estágios. A experiência multidisciplinar no setor de audiovisual expandiu minha visão e criatividade na resolução de problemas.
         Minha busca incessante por conhecimento me levou a uma graduação em língua alemã e a uma bolsa de estudos para estudar em Berlim, uma experiência enriquecedora. Atualmente, estou cursando Sistemas de Informação na UFSC e atuando como estagiário em dados e Business Intelligence no GrupoRV, ansioso por abraçar novos desafios e continuar minha jornada com paixão pelo conhecimento.</p>
     </section>
-
-    <section id="habilidades" class="mb-8">
-      <h2 class="text-2xl font-bold">Habilidades</h2>
-      <ul class="list-disc text-gray-600">
-        <li>[Habilidade 1]</li>
-        <li>[Habilidade 2]</li>
-        <li>[Habilidade 3]</li>
-        </ul>
+    <section id="habilidades" class="mx-4 container mx-auto py-12">
+      <h2 class="text-3xl font-bold text-center mh-6">Habilidades</h2><br>
+      <div class="flex items-center justify-between mx-4">
+        <img src="python-icon.png" alt="Python" width="50">
+        <img src="cplusplus-icon.png" alt="C++" width="50">
+        <img src="sql-icon.png" alt="SQL" width="50">
+        <img src="Power-BI-icon.png" alt="Power BI" width="50">
+        </div>
     </section>
-
-    <section id="links">
+<br>
+    <section id="links" class="mx-4">
       <h2 class="text-2xl font-bold">Links</h2>
-      <ul class="list-none text-gray-600">
+      <ul class="list-none items-centertext-gray-600">
         <!--<li><a href="não tenho ainda" target="_blank">Site Pessoal</a></li>-->
         <li><a href="https://www.linkedin.com/in/danrleyribeiro/" target="_blank">LinkedIn</a></li>
         <li><a href="https://github.com/danrleymory1" target="_blank">GitHub</a></li>
         </ul>
     </section>
+<br>
+<section id="links" class="mx-4">
+  <h2 class="text-2xl font-bold">Projetos</h2>
+  <ul class="list-none items-centertext-gray-600">
+    <li><a href="https://github.com/danrleymory1/FabricaSorvete" target="_blank">Fábrica de Sorvete com UI</a></li>
+    </ul>
+</section>
   </main>
 
   <footer class="bg-gray-800 py-4 text-center text-white">
-    <p>&copy; [Ano] [Seu nome completo]</p>
+    <p>&copy; 2024 Danley Ribeiro</p>
   </footer>
 </body>
 </html>
